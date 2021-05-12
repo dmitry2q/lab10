@@ -1,0 +1,39 @@
+
+body {
+   min-height: 100vh;
+}
+
+main {
+  height: calc(100vh - 40vh);
+  display: flex;
+}
+
+article {
+  flex: 1
+}
+nav {
+  order: -1
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+nav,
+aside {
+  background: gray;
+  padding: 10px;
+  width: 20vh;
+}
+header,
+footer {
+  background: lightgray;
+  height: 20vh;
+  padding: 10px;
+}
+article {
+  padding: 10px;
+}

@@ -1,0 +1,32 @@
+
+.form {
+  display: flex
+}
+
+.form__field {
+  flex: 1
+}
+
+
+
+
+body {
+  background: lightgray;
+  color: gray;
+}
+
+.form__item {
+  background: black;
+  color: white;
+  border: 0;
+  padding: 10px;
+  margin: 0
+}
+
+.form {
+  padding: 10px
+}
+
+.form__field {
+  margin: 0;
+}

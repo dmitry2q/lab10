@@ -1,0 +1,44 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer{
+    height: 20vh;
+}
+
+main{
+    display:flex;
+    flex: 1;
+}
+
+nav, aside{
+    width: 20vw;
+}
+
+article{
+    flex: 1;
+}
+
+nav{
+    order: -1;
+}
+
+
+
+nav,
+aside {
+  background: gray;
+  padding: 10px;
+  width: 20vh;
+}
+header,
+footer {
+  background: lightgray;
+  height: 20vh;
+  padding: 10px;
+}
+article {
+  padding: 200px;
+}
